@@ -1,0 +1,1 @@
+var mixer=mixitup(".container-filter");$(document).ready(function(){$('a[href^="#"]').click(function(){var t=$(this).attr("href");return $("html, body").animate({scrollTop:$(t).offset().top},500),!1})});

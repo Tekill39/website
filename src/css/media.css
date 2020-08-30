@@ -1,0 +1,137 @@
+/* @media screen and (max-width:1024px){
+   body{
+     background: yellow;
+     font-size: 25px;
+     color: white;
+    }
+   h1{
+     font-size: 45px;
+    }
+} */
+@media screen and (max-width:768px) and (min-width:550px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  body .expand{
+    padding: 30px 30px 10px 30px;
+  }
+  body .expand .mainText{
+    padding: 50px 0px;
+    margin-bottom: 20px;
+  }
+  body .expand .mainText h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+      
+}
+
+@media screen and (max-width:549px)  {
+  menu{
+    display: flex;
+    flex-direction: column;
+  }
+  menu li{
+    margin-bottom: 10px;
+  }
+  nav {
+    padding: 0 20px;
+  }
+  body header .mainText h1{
+    font-size: 40px;
+    margin-top: -20px;
+  }
+  body header .mainText p{
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  body .expand{
+    padding: 10px;
+  }
+  body .expand .mainText{
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    border:none;
+  }
+  body .expand .mainText h1{
+    font-size: 22px;
+    margin-bottom: 28px;
+  }
+  body  .our_process .steps{
+    display: block;
+  }
+  body  .our_process .back_process{
+    display: none;
+  }
+  body .our_team .wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width:1260px){
+  #recive{
+    padding: 30px 20px;
+  }
+  #recive h1{
+    font-size: 26px;
+  }
+  #recive p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .icons{
+    flex-wrap: wrap;
+    justify-content: center;
+  }    
+}
+@media screen and (max-width:768px){
+  .wedo1{
+    padding: 5px;
+    text-align: center;
+  }
+  .wedo1 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wedo1 .container img{
+    width: 100%;
+  }
+  .wedo1 .container .right{
+    order: 1;
+    max-width: 100%;
+  }
+  .wedo1 .container .left{
+    order: 2;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .wedo1 .container .btn{
+    margin-bottom: 20px;
+  }
+  .wedo2{
+    padding: 5px;
+    text-align: center;
+  }
+  .wedo2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wedo2 .container img{
+    width: 100%;
+  }
+  .wedo2 .container .right{
+    order: 1;
+    max-width: 100%;
+  }
+  .wedo2 .container .left{
+    order: 2;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .wedo2 .container .btn{
+    margin-bottom: 20px;
+  }
+}
